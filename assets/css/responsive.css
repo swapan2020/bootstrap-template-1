@@ -1,0 +1,96 @@
+/*`xs` returns only a ruleset and no media query ... { ... } */
+
+/*`sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .protfoli-area .protfolio-menu {
+        flex-direction: column;
+    }
+    .protfoli-area .protfolio-menu li {
+        padding: 2px 0px;
+        margin: 2px 0px;
+        text-align: center;
+    }
+    .contact-area .contact-address {
+        margin-bottom: 30px;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+
+ }
+
+/*`md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .slider-area .slide-content {
+        width: 100%;
+    }
+    .slider-area .owl-dots {
+        position: absolute;
+        left: 50%;
+        bottom:15px;
+        top: auto;
+        right: auto;
+        transform: translateX(-50%);
+        flex-direction: row;
+    }
+    .slider-area .owl-dots button {
+        margin: 0px 4px;
+    }
+    .footer-area .bottom-footer .footer-social ul li:first-child a {
+    margin-left: 0;
+    }
+    .section-title::before {
+        position: static;
+        width: 0 !important;
+    }
+    .section-title::after {
+        position: static;
+        width: 0;
+    }
+    .comments form input[type="submit"] {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+ }
+
+/*`lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .slider-area .slide-content {
+        width: 85%;
+    }
+    .team-area .row {
+        justify-content: center;
+    }
+    .counter-area .singel-counter {
+        padding: 25px 0px 25px 30px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .header-area .navbar {
+        padding: 10px 0px;
+    }
+    .section-title::before {
+        width: 130px;
+        bottom: 14px;
+    }
+    .about-content p {
+        margin-right: 0;
+    }
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    .blog-sidebar {
+        margin-left: 0;
+    }
+ }
+
+/*`xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+ }
+
+/*`xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    
+ }
+
